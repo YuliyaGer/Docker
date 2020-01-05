@@ -7,6 +7,6 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DATABASE=bd
+      - POSTGRES_DATABASE=db
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=1
