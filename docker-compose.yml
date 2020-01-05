@@ -1,0 +1,17 @@
+version: '3.2'
+services:
+  db:
+    image: postgres:11
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DATABASE=bd
+<<<<<<< HEAD
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=1
+=======
+      - POSTGRES_USER=yuliya
+      - POSTGRES_PASSWORD=9mREsvXDs9Gk89Ef
+>>>>>>> 4157b328304859e72310cb960aca2d4323717079
